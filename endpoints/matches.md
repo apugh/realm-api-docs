@@ -15,7 +15,7 @@ Returns all MatchIDs for a queue for a particular timeframe.  Similar to SMITE/P
 # Get Match Details
 **getMatchDetails** {matchId}
 
-Returns <b>end of match</b> stats for a particular match.  NOTE: Intra-match statistics are not available.
+Returns <b>end of match</b> stats for a particular match.  Intra-match stats are not available.
   - teams/id is only relevant for grouping within this match
   - deaths would be "1" or "0"
   - goal is to group by teams (not meaningful for the Solo queue), then players within the team
