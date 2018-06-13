@@ -1,7 +1,7 @@
 # Get Match IDs by Queue 
 **getMatchIDsByQueue** {queue}/{date}/{hour}
 
-Returns all MatchIDs for a queue for a particular timeframe.  Similar to SMITE/Paladins
+Returns all matchID values for a queue for a particular timeframe.  Similar to SMITE/Paladins
 
 ```js
 [
