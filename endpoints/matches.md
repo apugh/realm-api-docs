@@ -1,0 +1,58 @@
+# Get Match IDs by Queue 
+**getMatchIDsByQueue** {queue}/{date}/{hour}
+
+Returns all MatchIDs for a queue for a particular timeframe.  Similar to SMITE/Paladins
+
+```js
+[
+  {
+      "active_flag": "n",
+      "match": 1793874     
+  }
+]
+```
+
+# Get Match Details
+**getMatchDetails** {matchId}
+
+Returns match stats for a particular match
+  - teamId is only relevant for grouping with this match
+  - deaths would be "1" or "0"
+  - goal is to group by teams (not meaningful for the Solo queue), then players within the team
+
+```js
+[
+  {   
+      "match_id": 1793874,
+      "queue_id": 476,
+      "queue": "Quad",
+      "duration_secs": 1805,
+      "teams": [{
+        "id": 383773,
+        "placement": 1,
+        "players": [{
+            "name": "1stPlayer",
+            "id": 3987123,
+            "level": 22,
+            "kills_player": 2,
+            "kills_bot": 1,
+            "assists": 1,
+            "deaths", 1,
+            "damage_player": 3361,
+            "healing_player": 249.999985,            
+            "duration_secs": 1422,
+            "damage_taken": 344,
+            "killing_spree_max": 11,
+            "dropped_out_flag": 0,
+            "healing_player_self": 284,
+            "damage_mitigated": 450,
+            "profile": "MaleTank",
+            "damage_done_in_hand", 1231,
+            "mines_wards_placed", 96,
+            "earned_xp", 27100,
+            "earned_tokens", 177
+         }],  
+      }],     
+  }
+]
+```
