@@ -43,7 +43,7 @@ This would aggregate the player/queue data (combining the different Profiles suc
           "healing_player_self": 663,
           "wins": 2,
           "losses": 519,
-          'wards_mines_placed": 1098,
+          "wards_mines_placed": 1098,
           "earned_xp": 157850,
           "earned_tokens": 442,
           "average_placement", 17,
