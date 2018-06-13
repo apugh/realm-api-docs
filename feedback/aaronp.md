@@ -6,6 +6,8 @@
 -  Can't we move away from URL parameters to Request Body data, blah, blah, blah
 -  Does anyone actual use XML vs JSON anyway, blah, blah, blah, blah, blah
 
+- Sample edit showing pull request.
+
 
 
 # Realm Royale Endpoint Feedback
