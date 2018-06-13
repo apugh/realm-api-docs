@@ -19,6 +19,7 @@ Returns match stats for a particular match
   - teams/id is only relevant for grouping within this match
   - deaths would be "1" or "0"
   - goal is to group by teams (not meaningful for the Solo queue), then players within the team
+  - people have asked for listing a.) weapon owned at death (or end-of-match), and b.) weapon used to cause player's death ... this data isn't clearly available but I'm asking around about how to obtain it if possible.
 
 ```js
 [
