@@ -1,7 +1,7 @@
 # realm-api-proposal
 This is the central collaboration point for HiRez Realm Royale Game API definition.  The goal is to have one stop shopping for all ideas as the API is defined.  
 
-The <b>Endpoints</b> directory is the initial stab at a few key endpoints to get the conversations started.  It is probably not even close to where we'll end up.  Various obvious endpoints are even mentioned here such as TestSession, Ping, GetPatchInfo, etc.  We don't even have concept of getGods/Champions() nor getItems() yet.
+The <b>Endpoints</b> directory is the initial stab at a few key endpoints to get the conversations started.  It is probably not even close to where we'll end up.  Various obvious endpoints aren't even mentioned here such as TestSession, Ping, GetPatchInfo, etc.  We don't even have concept of getGods/Champions() nor getItems() yet.
 
 The <b>Feedback</b> directory contains a template (aaronp.md) I created that can be copied and renamed and your copy can be modified with your feedback.  Your feedback will be visible to others.
 
