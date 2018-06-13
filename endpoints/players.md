@@ -20,6 +20,7 @@ Returns basic player information
 
 Returns player stats for each match_queue_id (solo 474, duo 475, quad 476).
 <b>average_placement and placements </b> are TBD based on query performance and will likely be that for only the past 30 days due to purging of the source table.
+This would aggregate the player/queue data (combining the different Profiles such as MaleTank, FemaleDamage, FemaleSupport, MaleUtility, MaleFlank, etc.).  If desired, that data can be broken out separately.
 
 ```js
 [
@@ -29,11 +30,22 @@ Returns player stats for each match_queue_id (solo 474, duo 475, quad 476).
           "name": "Solo",
           "id": 474,
           "games_played": 521,
-          "kills": 371,
+          "kills_player": 371,
+          "kills_bot": 6,
+          "killing_spree_max": 5,
           "deaths": 479,
           "assists": 214,
-          "playtime_secs": 52100,
+          "duration_secs": 52100,
+          "damage_player": 22019,
+          "damage_taken": 4379,
+          "damage_mitigated": 942,
+          "healing_player": 249.999985,
+          "healing_player_self": 663,
           "wins": 2,
+          "losses": 519,
+          'wards_mines_placed": 1098,
+          "earned_xp": 157850,
+          "earned_tokens": 442,
           "average_placement", 17,
           "placements": {1: 2, 2: 4, 3: 3, 4: 3, ... 26: 0, 27: 1}
       }]     
