@@ -21,3 +21,5 @@ UPDATE 15. June:
 - Since Ranks are already implemented in the game, I hope that these could be integrated into the getPlayer endpoint. =)
 
 - I agree with MichaelNay that a field for the players STEAM_ID would be beneficial and would love to see that implemented (if possible). =)
+
+- Beside the won matches, could getLeaderboard also return the amount of total matches?
