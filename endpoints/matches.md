@@ -25,6 +25,7 @@ Returns <b>end of match</b> stats for a particular match.  Intra-match stats are
 [
   {   
       "match_id": 1793874,
+      "region": "Europe",
       "queue_id": 476,
       "queue": "Quad",
       "duration_secs": 1805,
