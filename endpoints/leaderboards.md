@@ -14,17 +14,19 @@ Returns leaderboard information for a particular queue.
       "queue_id": 476,
       "queue": "Quad",      
       "leaderboard": [{
-        "placement": 1,
+        "rank": 1,
         "player_name": "BestPlayer",
         "player_id": 1242243,
+        "matches": 234
         "team_wins": 15,
         "team_average_placement": 5        
       },
       {
-        "placement": 2,
+        "rank": 2,
         "player_name": "2ndBestPlayer",
         "player_id": 1242244,
-        "team_wins": 16,
+        "matches": 423
+        "team_wins": 16,        
         "team_average_placement": 5.1
       }],     
   }
