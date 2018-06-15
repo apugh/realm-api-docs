@@ -6,7 +6,7 @@
 
 - Match Details call - would deaths not increment for the times someone gets downed or turned into a chicken? And do you know what this field is for: dropped_out_flag?  <i>[AP: 2018-06-15]: Good questions ... will check w/Dev</i>
 
-- Would it be possible to add the region that the match took place into the top level match object where the match_id and queue stuff is?  <i>[AP: 2018-06-15]:  My initial pass indicates this is not readily available.  It could be available with a more expensive query.  Will hold off for now.</i>
+- Would it be possible to add the region that the match took place into the top level match object where the match_id and queue stuff is?  <i>[AP: 2018-06-15]:  Yes.</i>
 
 **CSpraggs**
 
