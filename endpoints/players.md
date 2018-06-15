@@ -19,9 +19,8 @@ Returns basic player information
 # Get Player Stats
 **getPlayerStats** {playerId | playerName}
 
-Returns player stats for each match_queue_id (solo 474, duo 475, quad 476).
-<b>average_placement and placements </b> are TBD based on query performance and will likely be that for only the past 30 days due to purging of the source table.
-This would aggregate the player/queue data (combining the different Profiles such as MaleTank, FemaleDamage, FemaleSupport, MaleUtility, MaleFlank, etc.).  If desired, that data can be broken out separately.
+Returns player stats for each [match_queue_id (solo 474, duo 475, quad 476), class (Warrior, Hunter, Mage, Engineer, Assassin)] combination. 
+<b>average_placement and placements</b> are TBD based on query performance and will likely be that for only the past 30 days due to purging of the source table.
 
 ```js
 [
