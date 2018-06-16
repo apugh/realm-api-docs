@@ -35,6 +35,7 @@ Returns high level data regarding matches played in the past 30 days.
           "match_queue_id": 475,
           "class_name": "Mage",
           "class_id": 2285,
+          "team_id": 123828,
           "region": "Brazil",
           "gold": 0,
           "kills": 1,
