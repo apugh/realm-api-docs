@@ -35,5 +35,5 @@ Also i made up a [sample API code](hhttps://app.swaggerhub.com/apis/stachu540/Sm
     ```
 - _Does anyone actual use XML vs JSON anyway, blah, blah, blah, blah, blah_
 
-  XML is not much popular Response Body. Many programmers using a JSON response. We can compare [JSON vs XML](https://www.w3schools.com/js/js_json_xml.asp) on those site. In short, JSON is better redable object than XML.
+  XML is not much popular Response Body. Many programmers using a JSON response. We can compare [JSON vs XML](https://www.w3schools.com/js/js_json_xml.asp) on those site. In short, JSON is better readable object than XML.
   For example in Java i use [Jackson](https://github.com/FasterXML/jackson-databind) to parsing response into the [POJO](https://en.wikipedia.org/wiki/Plain_old_Java_object).
