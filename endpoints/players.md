@@ -12,7 +12,8 @@ Returns basic player information
       "last_login_datetime": "6\/12\/2018 7:51:11 PM",      
       "level": 22,
       "steam_id": "abc123",
-      "region": "Europe"
+      "region": "Europe",
+      "tier": 23, 
   }
 ]
 ```
