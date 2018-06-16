@@ -13,7 +13,7 @@ Returns leaderboard information for a particular queue.
   {         
       "queue_id": 476,
       "queue": "Quad",      
-      "last_updated": ""3\/18\/2018 5:14:27 PM",
+      "last_updated": "3\/18\/2018 5:14:27 PM",
       "leaderboard": [{
         "rank": 1,
         "player_name": "BestPlayer",
