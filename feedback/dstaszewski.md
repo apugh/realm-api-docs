@@ -31,7 +31,7 @@ Also i made up a [sample API code](hhttps://app.swaggerhub.com/apis/stachu540/Sm
 
   - Players:
     ```sh
-    curl -H "X-API-Key: $(echo -n "{dev_id}:{session_id}:{auth_key}" | md5sum | cut -d"-" -f1 -)" https://api.paladins.com/pc/players?query=creativs2
+    curl -H "X-API-Key: $(echo -n "{dev_id}:{session_id}:{auth_key}" | md5sum | cut -d"-" -f1 -)" https://api.paladins.com/pc/players?username=creativs2
     ```
 - _Does anyone actual use XML vs JSON anyway, blah, blah, blah, blah, blah_
 
