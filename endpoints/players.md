@@ -43,7 +43,6 @@ Returns high level data regarding matches played in the past 30 days.
           "assists": 0,
           "deaths": 1,
           "minutes": 8,
-          "level": 22,
           "time_in_match_seconds": 513,
           "placement": 17,
           "damage": 2295,
