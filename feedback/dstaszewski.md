@@ -21,9 +21,9 @@ Also i made up a [sample API code](hhttps://app.swaggerhub.com/apis/stachu540/Sm
 
     _Yes and No_.
     
-    **Yes** if we want creating other queries than GET method. Request Body doesn't work for GET method. Your API is mainly using GET request.
+    **No** if we want creating other queries than GET method. Request Body doesn't work for GET method. Your API is mainly using GET request.
     
-    **No** if we want to stick into the GET request method. So we will use request into the parameters like this (only examples):
+    **Yes** if we want to stick into the GET request method. So we will use request into the parameters like this (only examples):
   - Search Teams (SMITE):
     ```sh
     curl -H "X-API-Key: $(echo -n "{dev_id}:{session_id}:{auth_key}" | md5sum | cut -d"-" -f1 -)" https://api.smitegame.com/pc/teams?name=dignitas
