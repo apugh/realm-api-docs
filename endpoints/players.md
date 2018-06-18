@@ -1,5 +1,5 @@
 # Get Player 
-**getPlayer** {playerId} | {steamId}
+**getPlayer** [{playerId}|{steamId}]/[{"hirez"}|{"steam"}]
 
 Returns basic player information
 
