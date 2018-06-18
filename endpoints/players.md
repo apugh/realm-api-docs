@@ -4,17 +4,15 @@
 Returns basic player information
 
 ```js
-[
-  {
-      "name": "RealmHero",
-      "id": 123,
-      "created_datetime": "3\/18\/2018 5:14:27 PM",
-      "last_login_datetime": "6\/12\/2018 7:51:11 PM",      
-      "level": 22,
-      "steam_id": "abc123",
-      "region": "Europe"
-  }
-]
+{
+    "name": "RealmHero",
+    "id": 123,
+    "created_datetime": "3\/18\/2018 5:14:27 PM",
+    "last_login_datetime": "6\/12\/2018 7:51:11 PM",      
+    "level": 22,
+    "steam_id": "abc123",
+    "region": "Europe"
+}
 ```
 
 # Get Player Stats
