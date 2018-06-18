@@ -1,5 +1,5 @@
 # Get Player 
-**getPlayer** {playerId | playerName}
+**getPlayer** {playerId}
 
 Returns basic player information
 
@@ -18,7 +18,7 @@ Returns basic player information
 ```
 
 # Get Player History
-**getPlayerHistory** {playerId | playerName}
+**getPlayerHistory** {playerId}
 
 Returns high level data regarding matches played in the past 30 days.
 
@@ -56,7 +56,7 @@ Returns high level data regarding matches played in the past 30 days.
 ```
 
 # Get Player Stats
-**getPlayerStats** {playerId | playerName}
+**getPlayerStats** {playerId}
 
 Returns player stats for each [match_queue_id (solo 474, duo 475, quad 476), class (Warrior, Hunter, Mage, Engineer, Assassin)] combination. 
 <b>average_placement and placements</b> are TBD based on query performance and will likely be that for only the past 30 days due to purging of the source table.
