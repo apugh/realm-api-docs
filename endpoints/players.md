@@ -10,7 +10,7 @@ Returns basic player information
     "created_datetime": "3\/18\/2018 5:14:27 PM",
     "last_login_datetime": "6\/12\/2018 7:51:11 PM",      
     "level": 22,
-    "steam_id": "abc123",
+    "steam_id": 76561198199559770,
     "region": "Europe"
 }
 ```
