@@ -1,5 +1,5 @@
 # Get Player 
-**getPlayer** {playerId}
+**getPlayer** {playerId} | {steamId}
 
 Returns basic player information
 
