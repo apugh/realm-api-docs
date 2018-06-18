@@ -2,7 +2,7 @@
 
 Presented `curl` sample is a example revisiting API. The changes will be a different than it can be assumed.
 
-Also i made up a [sample API code](hhttps://app.swaggerhub.com/apis/stachu540/Smite/v2) (partly) using [OAS3](https://swagger.io/docs/specification/about/). Those samples it is a proposial to changes. Hi-Rez Studios will change it for their purpose.
+Also i made up a [sample API code](https://app.swaggerhub.com/apis/stachu540/Smite/v2) (partly) using [OAS3](https://swagger.io/docs/specification/about/). Those samples it is a proposial to changes. Hi-Rez Studios will change it for their purpose.
 
 - _What is going on with Rate Limits?_
 
