@@ -1,5 +1,5 @@
 # Get Leaderboard Details
-**getLeaderboards** {queue}/{ranking_criteria}
+**getLeaderboard** {queue}/{ranking_criteria}
 
 Returns leaderboard information for a particular queue.
   - for duo and quad queues/modes the individual's placement results reflect their team/grouping; solo is self-explanatory
