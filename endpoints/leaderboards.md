@@ -20,7 +20,7 @@ Returns leaderboard information for a particular queue.
         "player_id": 1242243,
         "matches": 234
         "team_wins": 15,
-        "team_average_placement": 5        
+        "team_avg_placement": 5        
       },
       {
         "rank": 2,
@@ -28,7 +28,7 @@ Returns leaderboard information for a particular queue.
         "player_id": 1242244,
         "matches": 423
         "team_wins": 16,        
-        "team_average_placement": 5.1
+        "team_avg_placement": 5.1
       }],     
   }
 ]
