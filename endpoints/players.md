@@ -111,40 +111,38 @@ Returns player stats for each [match_queue_id (solo 474, duo 475, quad 476), cla
 Returns high level data regarding matches played in the past 30 days.  Limited to the 50 most recent matches.
 
 ```js
-[
-  {
-      "name": "RealmHero",
-      "id": 123,
-      "matches": [{
-          "match_id": 526153,
-          "match_datetime": "6\/14\/2018 5:14:27 PM",
-          "match_duration_secs": 1243,
-          "map_game": "LIVE Royale Map",
-          "match_queue_name": "Duo",
-          "match_queue_id": 475,
-          "class_name": "Mage",
-          "class_id": 2285,
-          "team_id": 123828,
-          "region": "Brazil",
-          "gold": 0,
-          "kills": 1,
-          "creeps": 1,
-          "assists": 0,
-          "deaths": 1,
-          "minutes": 8,
-          "time_in_match_seconds": 513,
-          "placement": 17,
-          "damage": 2295,
-          "damage_taken": 1949,
-          "healing_player": 325
-          "healing_player_self": 308,
-          "healing_bot": 0,          
-          "killing_spree_max": 1,
-          "damage_mitigated": 1500,
-          "damage_done_in_hand": 300,          
-          "wards_mines_placed": 94          
-      }]     
-  }
-]
+{
+  "name": "RealmHero",
+  "id": 123,
+  "matches": [{
+      "match_id": 526153,
+      "match_datetime": "6\/14\/2018 5:14:27 PM",
+      "match_duration_secs": 1243,
+      "map_game": "LIVE Royale Map",
+      "match_queue_name": "Duo",
+      "match_queue_id": 475,
+      "class_name": "Mage",
+      "class_id": 2285,
+      "team_id": 123828,
+      "region": "Brazil",
+      "gold": 0,
+      "kills": 1,
+      "creeps": 1,
+      "assists": 0,
+      "deaths": 1,
+      "minutes": 8,
+      "time_in_match_seconds": 513,
+      "placement": 17,
+      "damage": 2295,
+      "damage_taken": 1949,
+      "healing_player": 325
+      "healing_player_self": 308,
+      "healing_bot": 0,          
+      "killing_spree_max": 1,
+      "damage_mitigated": 1500,
+      "damage_done_in_hand": 300,          
+      "wards_mines_placed": 94          
+  }]     
+}
 ```
 
