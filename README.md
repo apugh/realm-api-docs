@@ -12,3 +12,6 @@ The URL prefix for the url is:  <b>http://api.realmroyale.com/realmapi.svc</b>
 Thank you all for your cooperation and assistance in this initiative.
 
 Aaron
+
+# Developer Guide
+[API Documentation](https://github.com/apugh/realm-api-proposal/wiki "Realm Royale API Documentation")
