@@ -143,3 +143,17 @@ Returns high level data regarding matches played in the past 30 days.  Limited t
 }
 ```
 
+# Get Player Status
+**getPlayerStatus** {playerId}
+
+Returns player online/offline status.
+
+```js
+{
+    "match_id": 1181882,
+    "personal_status_message": null,
+    "status_id": 3,
+    "status": "In Game",          
+    "ret_msg": null
+}
+```
