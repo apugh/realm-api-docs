@@ -4,5 +4,5 @@
 - Consider Items/Weapons in an endpoint (work with development team)
 
 
-*Secondart Priorities*
+*Secondary Priorities*
 - Continue updating Documentation
