@@ -33,7 +33,7 @@ Returns player stats for each [match_queue_id (solo 474, duo 475, quad 476), cla
       "assists": 1214,
       "duration_secs": 5210000,
       "damage_player": 220190,
-      "damage_inhand": 210932,
+      "damage_done_in_hand": 210932,
       "damage_taken": 43790,
       "damage_mitigated": 5942,
       "healing_player": 249.999985,
@@ -60,7 +60,7 @@ Returns player stats for each [match_queue_id (solo 474, duo 475, quad 476), cla
            "assists": 214,
            "duration_secs": 52100,
            "damage_player": 22019,
-           "damage_inhand": 21832,
+           "damage_done_in_hand": 21832,
            "damage_taken": 4379,
            "damage_mitigated": 942,
            "healing_player": 249.999985,
@@ -88,7 +88,7 @@ Returns player stats for each [match_queue_id (solo 474, duo 475, quad 476), cla
            "assists": 214,
            "duration_secs": 52100,
            "damage_player": 22019,
-           "damage_inhand": 21423,
+           "damage_done_in_hand": 21423,
            "damage_taken": 4379,
            "damage_mitigated": 942,
            "healing_player": 249.999985,
@@ -160,3 +160,24 @@ Returns player online/offline status.
     "ret_msg": null
 }
 ```
+
+# Search Players
+**searchPlayers** {playerName}
+
+Returns up to 500 players with playerName <i>starting with</i> parameter provided.
+
+```js
+[
+    {"id":53198,
+     "name":"EonicBoom",
+     "ret_msg":null,
+     "steam_id":76561198132255826
+    },
+    {"id":1741198,
+     "name":"Eonic",
+      "ret_msg":null,
+      "steam_id":76561198117389412
+    }
+ ]
+```
+
