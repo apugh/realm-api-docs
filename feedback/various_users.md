@@ -13,3 +13,7 @@
 - Leaderboards:  Add average kill count? If I understand correctly the highest ranks are based on kill count too.  <i>[AP: 2018-06-15]: Yes, will add it.</i>
 
 - Players: As granular as possible so splitting up average_placement is preferred over grouping them.  <i>[AP: 2018-06-15]: Yes, getPlayerStats() will return aggregate and (match_queue, class) detailed breakdowns of stats.</i>
+
+**Negativitet**
+- Could getPlayerMatchHistory() be built to handle up to some level of multiple playerId inputs? To simplify for us that want to work with multiple players at the same time? Getting the result for 25 playerIds at once will be less intense on databases than fetching one result x 25 times.
+- getPlayerMatchHistory() could benefit from **optional** input parameter, something like "last fetch timestamp" so that you don't re-fetch results you've already gathered. Like so: getPlayerMatchHistory(12345,'2018-07-10 11:38:00') and then you get results for 12345 that are saved later than 2018-07-10 11:38:00
