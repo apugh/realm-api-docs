@@ -130,9 +130,10 @@ Returns high level data regarding matches played in the past 30 days.  Limited t
       "creeps": 1,
       "assists": 0,
       "deaths": 1,
-      "minutes": 8,
-      "time_in_match_seconds": 513,
+      "time_in_match_minutes": 8,
+      "time_in_match_secs": 513,
       "placement": 17,
+      "player_id": 0,
       "damage": 2295,
       "damage_taken": 1949,
       "healing_player": 325
