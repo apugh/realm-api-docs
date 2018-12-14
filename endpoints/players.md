@@ -11,7 +11,10 @@ Returns basic player information
     "last_login_datetime": "6\/12\/2018 7:51:11 PM",      
     "level": 22,
     "steam_id": 76561198199559770,
-    "region": "Europe"
+    "region": "Europe",
+    "portal": "PSN",
+    "portal_id": 9,
+    "portal_userid": 6407668544069555067
 }
 ```
 
