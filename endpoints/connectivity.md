@@ -65,6 +65,7 @@ Returns UP/DOWN status for the primary game/platform environments.  Data is cach
 	"entry_datetime": "2018-06-29 14:31:35.315",
 	"status": "UP",
 	"version": "0.3.225.0",
+	"limited_access": false,
 	"ret_msg": null
 }
 ```
