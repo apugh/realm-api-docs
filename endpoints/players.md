@@ -18,6 +18,62 @@ Returns basic player information
 }
 ```
 
+# Get Player ID By Name
+**getPlayerIdByName** {playerName}
+
+Returns list of player ID information where the Hi-Rez DB Player.Name value equals the playerName parameter.
+
+Typically this will be useful only for portal_id = 1 (PC players) and thus it would only be a list containing one node.
+
+Here is an example for playerName = 'ptddragon':
+
+```js
+{
+    "id": 5170981,
+    "portal": "Hi-Rez",
+    "portal_id": 1    
+}
+```
+
+# Get Player IDs By GamerTag 
+**getPlayerIDsByGamerTag** {portalId]/{gamerTag}
+
+Returns list of player ID information where the Hi-Rez DB Player.portal_id value equals the portalId parameter and the Hi-Rez DB Player.gamer_tag value equals the gamerTag parameter.  
+
+Here is an example for portalId = 9 (PSN) and gamerTag = 'walrus2045':
+
+```js
+{
+    {
+        "id":5242616,
+        "portal":"PSN",
+        "portal_id":9        
+    },
+    {
+        "id":6917985,
+        "portal":"PSN",
+        "portal_id":9       
+    }
+}
+```
+
+# Get Player ID By Portal_UserId
+**GetPlayerIdByPortalUserId** {portalId]/{portalUserId}
+
+Returns list of player ID information where the Hi-Rez DB Player.portal_id value equals the portalId parameter and the Hi-Rez DB Player.portal_userid value equals the portalUserId parameter.  
+
+Typically this would be a list containing only one node.
+
+Here is an example for portalId = 25 (Discord) and portalUserId = '23572087872421888':
+
+```js
+{
+        "id":6293586,
+        "portal":"Discord",
+        "portal_id":25      
+}
+```
+
 # Get Player Stats
 **getPlayerStats** {playerId}
 
