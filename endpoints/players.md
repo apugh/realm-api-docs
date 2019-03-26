@@ -214,6 +214,7 @@ Returns player online/offline status.
 ```js
 {
     "match_id": 1181882,
+    "match_queue_id": 475,
     "personal_status_message": null,
     "status_id": 3,
     "status": "In Game",          
