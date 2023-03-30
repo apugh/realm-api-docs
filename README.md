@@ -7,7 +7,7 @@ The <b>Feedback</b> directory contains a template (aaronp.md) I created that can
 
 The API will evolve, but I want to 80/20 the first out with minimal risk of rework.  Keep in mind that we have limited data available, and that data is only available once a match completes.
 
-The URL prefix for the url is:  <b>http://api.realmroyale.com/realmapi.svc</b>
+The URL prefix for the url is:  <b>https://api.realmroyale.com/realmapi.svc</b>
 
 Thank you all for your cooperation and assistance in this initiative.
 
