@@ -37,3 +37,7 @@ Also i made up a [sample API code](https://app.swaggerhub.com/apis/stachu540/Smi
 
   XML is not much popular Response Body. Many programmers using a JSON response. We can compare [JSON vs XML](https://www.w3schools.com/js/js_json_xml.asp) on those site. In short, JSON is better readable object than XML.
   For example in Java i use [Jackson](https://github.com/FasterXML/jackson-databind) to parsing response into the [POJO](https://en.wikipedia.org/wiki/Plain_old_Java_object).
+
+---
+
+UPDATE 12/27/18: Let's taste a new way solutions which is [GraphQL](https://graphql.org/). Everyone will create own query data for 3rd party apps. No one needs decied which fields needs to your app. I think is better way solution, adding mentioned Rate Limits and Created API Key via `createSession()` ;)
